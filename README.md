@@ -45,7 +45,7 @@ A common question when beginning an iOS project is whether to write all views in
 
 ### Ignores
 
-A good first step when putting a project under version control is to have a decent `.gitignore` file. That way, unwanted files (user settings, temporary files, etc.) will never even make it into your repository. Luckily, GitHub has us covered for both [Objective-C][objc-gitignore] and [Swift][swift-gitignore].
+A good first step when putting a project under version control is to have a decent `.gitignore` file. That way, unwanted files (user settings, temporary files, etc.) will never even make it into your repository. Luckily, GitHub has us covered for both [Objective-C][objc-gitignore] 、[Swift][swift-gitignore]、[Ingoring files][Ignoring files] and [Common .gitignore][Common .gitignore].
 
 [objc-gitignore]: https://github.com/github/gitignore/blob/master/Objective-C.gitignore
 [swift-gitignore]: https://github.com/github/gitignore/blob/master/Swift.gitignore
@@ -90,6 +90,7 @@ To keep all those hundreds of source files ending up in the same directory, it's
 
 First, create them as groups (little yellow "folders") within the group with your project's name in Xcode's Project Navigator. Then, for each of the groups, link them to an actual directory in your project path by opening their File Inspector on the right, hitting the little gray folder icon, and creating a new subfolder with the name of the group in your project directory.
 
+[other Project Structure][other Project Structure]
 [other Project Structure]: http://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=202212837&idx=3&sn=d8f359476632346e6b7b8ed0b7261191&scene=2&from=timeline&isappinstalled=0&key=df10b43f99cbaf5d37a12fec3e81588bcfd90c954fa6bf70ae9c43e653696fecc463e36a7f14fe771561a9d0db7606b2&ascene=1&uin=MjY1NTg0NzMyMQ%3D%3D&devicetype=webwx&version=70000001&pass_ticket=rya9LNfcjLxKrpSxx7OoM%2FvdJDblBEyb1HNP7tPSuHkIZ4WufiPAoDq3w95vq6o4
 
 #### Localization
